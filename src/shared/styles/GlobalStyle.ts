@@ -12,7 +12,6 @@ export const GlobalStyle = createGlobalStyle`
     font-family: "Lexend Deca", sans-serif;
     font-size: 62.5%;
     height: 100%;
-    overflow: hidden;
   };
 
   a {
