@@ -1,5 +1,5 @@
 import * as S from "./styles";
-import { AiOutlineSearch } from "../../shared/icons";
+import { AiOutlineSearch } from "@icons";
 
 export const Header = () => {
   return (

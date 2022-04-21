@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
-import { Header } from "./components";
-import { GlobalStyle, theme } from "./shared/styles";
+import { Header } from "@components";
+import { GlobalStyle, theme } from "@styles";
 
 function App() {
   return (

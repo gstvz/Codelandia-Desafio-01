@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "es5",
     "lib": [
       "dom",
@@ -15,6 +16,11 @@
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "moduleResolution": "node",
+    "paths": {
+      "@components": ["./src/components/index"],
+      "@icons": ["./src/shared/icons/index"],
+      "@styles": ["./src/shared/styles/index"]
+    },
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
