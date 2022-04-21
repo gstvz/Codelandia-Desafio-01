@@ -6,6 +6,7 @@ declare module "styled-components" {
       gradient: string;
       gray: string;
       gray_dark: string;
+      gray_light: string;
       purple: string;
       white: string;
       white_200: string;
